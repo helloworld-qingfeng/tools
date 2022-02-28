@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="tools">
+    <output-path>$PROJECT_DIR$/out/artifacts/tools</output-path>
+    <root id="archive" name="tools.war">
+      <element id="artifact" artifact-name="GaoLiang:war exploded" />
+      <element id="dir-copy" path="$PROJECT_DIR$/web" />
+    </root>
+  </artifact>
+</component>
